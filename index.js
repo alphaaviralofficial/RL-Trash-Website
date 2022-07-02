@@ -16,6 +16,6 @@ function httpGetAsync(callback)
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
             callback(xmlHttp.responseText);
     }
-    xmlHttp.open("GET", 'https://flutter-f8ded-default-rtdb.firebaseio.com/Fm.json', true); // true for asynchronous 
+    xmlHttp.open("GET", 'https://flutter-f8ded-default-rtdb.firebaseio.com/dustbin.json', true); // true for asynchronous 
     xmlHttp.send(null);
 }
