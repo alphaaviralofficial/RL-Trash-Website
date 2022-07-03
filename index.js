@@ -4,8 +4,8 @@ function getData(){
 
 function c(text){
     const data = JSON.parse(text);
-    document.getElementById("div1").innerHTML = "First Dustbin : "+(100 - 1.0*data.a*100/23.5);
-    document.getElementById("div2").innerHTML = "Second Dustbin : "+data.b;
+    document.getElementById("div1").innerHTML = "First Dustbin : "+Math.round(100 - 1.0*data.a*100/24);
+    // document.getElementById("div2").innerHTML = "Second Dustbin : "+data.b;
 }
 
 
